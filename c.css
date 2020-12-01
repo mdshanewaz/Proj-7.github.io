@@ -1,0 +1,12 @@
+*{margin: 0; padding: 0; outline: none; font-family: arial;}
+body{background: url("img/contact.jpg") no-repeat top center; background-size: cover; height: 100vh;}
+.full_width{width: 100%; height: auto;}
+.container{width: 960px; display: block; margin: 0 auto; margin-top: 70px;}
+.container h2{text-align: center; margin-bottom: 40px; font-size: 50px; color: #ede7e6; border-bottom: 3px solid #201980;}
+.contact{width: 50%; display: flex; flex-direction: column; margin-left: 240px; background: rgba(0,0,0,0.8); padding: 20px; border-radius: 5px; box-shadow: 0 0 10px rgba(0,0,0,0.3);}
+.contact input, .contact textarea{text-indent: 5px; margin: 10px 0; background: transparent; border: none; border-bottom: 2px solid #201980; padding: 10px; color:#ede7e6;}
+.butn{background-color: #201980; border-radius: 5px; padding: 15px; cursor: pointer;}
+.butn a{color: #ede7e6; text-align:center; text-decoration: none;}
+.butn:hover{background-color: #000;}
+::-webkit-input-placeholder{color: #ede7e6;}
+::-moz-placeholder{color: #ede7e6;}

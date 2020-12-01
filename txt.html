@@ -1,0 +1,157 @@
+<!DOCTYPE HTML>
+<html lang="en-US">
+<head>
+	<meta charset="UTF-8">
+	<title>My Second Website</title>
+	<link rel="stylesheet" href="t.css"/>
+	<link rel="icon" href="FavIcon/f.png"/>
+</head>
+<body>
+	<div class="full_width">
+	<div class="container">
+	<div class="menu" id="sticker">
+	<ul>
+	<li><a href="#">Home</a></li>
+	<li><a href="#">About</a></li>
+	<li><a href="#">Skills</a>
+	<ul>
+	<li><a href="#">HTML</a></li>
+	<li><a href="#">CSS</a></li>
+	<li><a href="#">Other</a></li>
+	</ul>
+	</li>
+	<li><a href="index.html">Works</a></li>
+	<li><a href="contact.html">Contact</a></li>
+	</ul>
+	<input type="text" placeholder="Type to search..." id="box"/>
+	<button><img src="img/srch.png" alt="" /></button>
+	</div>
+	</div>
+	</div>
+	
+	<div class="full_width">
+	<div class="container">
+	<div class="image"> 
+	<img src="img/nemo.jpg" alt="#"/>
+	</div>
+	</div>
+	</div>
+	
+	<div class="full_width">
+	<div class="container"> 
+	<div class="section"> 
+	<div class="first floatleft">
+	<h2>Headings</h2>
+	<ul>
+	<li>Topic</li>
+	<li>Topic</li>
+	<li>Topic</li>
+	<li>Topic</li>
+	<li>Topic</li>
+	</ul>
+	<h2>Another Topic</h2>
+	<ul>
+	<li>Topic</li>
+	<li>Topic</li>
+	<li>Topic</li>
+	<li>Topic</li>
+	<li>Topic</li>
+	</ul>
+	<h2>Second Topic</h2>
+	<ul>
+	<li>Topic</li>
+	<li>Topic</li>
+	<li>Topic</li>
+	<li>Topic</li>
+	<li>Topic</li>
+	</ul>
+	</div>
+	<div class="middle floatleft">
+	<h2>This Is our website's cintent</h2>
+	<p>Website is a hyper-media information storage system linking resources around the world. In website, browsers allow highlighted words or an icon which is called hyper links to display text, video, graphics and sound on a local computer screen. With the introduction of World Wide Web in 1989, the concept of websites has become more popular. On this web, anyone can create a home page, which millions of users can watch on their computers and respond.</p>
+	<p> Internet is a global system of interconnected computer networks that use the standard internet protocol suite to serve several billion users worldwide. In other words, it may be called a network of communication via computers all over the world. Anyone with a computer may log on the internet. However, one must have a particular software. The Internet has countless advantages. One may get any information one needs on the net. This is of great advantage to students in their studies, especially when they are preparing reports. People engaged in research benefit greatly because they can learn about research all over the world and apply it.</p>
+	</div>
+	<div class="last floatleft">
+	<h2>Headings</h2>
+	<ul>
+	<li>Topic</li>
+	<li>Topic</li>
+	<li>Topic</li>
+	<li>Topic</li>
+	<li>Topic</li>
+	</ul>
+	<h2>Another Topic</h2>
+	<ul>
+	<li>Topic</li>
+	<li>Topic</li>
+	<li>Topic</li>
+	<li>Topic</li>
+	<li>Topic</li>
+	</ul>
+	<h2>Second Topic</h2>
+	<ul>
+	<li>Topic</li>
+	<li>Topic</li>
+	<li>Topic</li>
+	<li>Topic</li>
+	<li>Topic</li>
+	</ul>
+	</div>
+	</div>
+	</div>
+	</div>
+	
+	<div class="full_width">
+	<div class=" container"> 
+	<div class="footer"> 
+	<div class="categories floatleft">
+	<h2>Categories</h2>
+	<ul>
+	<li><a href="#">HTML</a></li>
+	<li><a href="#">CSS</a></li>
+	<li><a href="#">JS</a></li>
+	<li><a href="#">PYTHON</a></li>
+	<li><a href="#">SEO</a></li>
+	</ul></div>
+	<div class="blog floatleft">
+	<h2>Blog Posts</h2>
+	<ul>
+	<li><a href="#">Description From Our Post</a></li>
+	<li><a href="#">Description From Our Post</a></li>
+	<li><a href="#">Description From Our Post</a></li>
+	<li><a href="#">Description From Our Post</a></li>
+	<li><a href="#">Description From Our Post</a></li>
+	</ul></div>
+	<div class="social floatleft">
+	<h2>Follow Us</h2>
+	<a href="http://facebook.com" target="_blank"><img src="img/facebook.png" alt="Facebook"/></a>
+	<a href="http://googleplus.com" target="_blank"><img src="img/googleplus.png" alt="GooglePlus"/></a>
+	<a href="http://instagram.com" target="_blank"><img src="img/instagram.png" alt="Instagram"/></a>
+	<a href="http://youtube.com" target="_blank"><img src="img/youtube.png" alt="Youtube"/>
+	</a>
+	<a href="http://twitter.com" target="_blank"><img src="img/twitter.png" alt="twitter" /></a>
+	</div>
+	<div class="copy">
+	<p>Copyright : &copy; All rights preserved to Md Shah Newaz</p></div>
+	</div>
+	</div>
+	</div>
+	
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>	
+<script type="text/javascript">
+$(document).ready(function() {
+	var s = $("#sticker");
+	var pos = s.position();					   
+	$(window).scroll(function() {
+		var windowpos = $(window).scrollTop();
+		if (windowpos >= pos.top) {
+			s.addClass("stick");
+		} else {
+			s.removeClass("stick");	
+		}
+	});
+});
+</script>
+
+</body>
+</html>
